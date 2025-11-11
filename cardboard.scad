@@ -103,7 +103,7 @@ module aba_traseira() {
         for(z = [10, 13, 16,  20]) {
             translate([x, profundidade_visor + 7, z-20])
             rotate([90, 0, 0])
-            cylinder(h=10, r=3, $fn=30);
+            cylinder(h=10, r=8, $fn=30);
         }
     }
 }
